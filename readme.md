@@ -9,7 +9,7 @@ To contribute, ask for write permissions or submit a pull request. Also, please 
 After the project has been cloned and python 3 is installed, run this in a terminal: 
 
 ```bash
-virtualenv --no-site-packages --distribute .env && source .env/bin/activate && pip install -r requirements.txt && deactivate
+. ./startDevelopment.sh
 ```
 to install all dependencies needed.
 
